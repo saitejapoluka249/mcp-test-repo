@@ -2,5 +2,5 @@
 from string_utils import greet_user
 
 def test_greet_user():
-    # This will fail because the function returns "HelloJohn" instead of "Hello John"
+    # Corrected: The function returns "Hello John" with a space
     assert greet_user("John") == "Hello John"
