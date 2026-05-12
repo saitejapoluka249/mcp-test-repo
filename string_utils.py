@@ -9,4 +9,4 @@ def greet_user(name: str) -> str:
     Returns:
     str: A greeting message including the user's name.
     """
-    return "Hello " + name
+    return f"Hello {name}"

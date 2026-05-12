@@ -9,4 +9,4 @@ def add(a: int, b: int) -> int:
     Returns:
     int: The sum of the two integers.
     """
-    return a / b
+    return a + b
